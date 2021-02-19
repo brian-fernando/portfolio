@@ -1,12 +1,18 @@
 import React from "react"
 import image from "../code_cover_03.png";
 
-export default function Home(){
+export default function Home() {
     return (
         <main>
-            <img src={image} alt="Cover BG" className="absolute object-cover w-full h-full" />
+            <img
+                src={image}
+                alt="Cover BG"
+                className="absolute object-cover w-full h-full"
+            />
             <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-                <h1 className="text-6xl text-green-100 font-bolt cursive leading-none lg:leading-snug home-name">Ayubowan!, I'm Kavinda</h1>
+                <h1 className="text-6xl text-green-100 font-bolt cursive leading-none lg:leading-snug home-name">
+                    Ayubowan!, I'm Kavinda
+                    </h1>
             </section>
         </main>
 
