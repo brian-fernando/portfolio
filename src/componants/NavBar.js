@@ -15,7 +15,7 @@ export default function NavBar() {
                         style={{ height: "60px", width: "60px" }}
                     />
                     <NavLink to="/" activeClassName="text-white"
-                        exact className="inflex-flex items-center py-8 px-3 mr-4 text-green-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">
+                        exact className="inflex-flex items-center py-8 px-3 mr-4 text-green-100 hover:text-green-800 text-3xl font-bold cursive tracking-widest">
                         Kavinda
                     </NavLink>
                     <NavLink to="/post"

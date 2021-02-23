@@ -22,7 +22,8 @@ export default function Project() {
             <img
                 src={image}
                 alt="Blog BG"
-                className="absolute object-cover w-full h-full "
+                className="absolute object-cover w-full h-full"
+                imageStyle={{resizeMode: 'repeat'}}
             />
             <div className="pl-12 pr-12 pt-5">
                 <section className="container mx-auto">
